@@ -8,15 +8,7 @@ export const CartProvider = ({children}) => {
 
     const initialState = []
 
-    const reducer = () =>{
-      
-    }
-
-
-
-
-
-
+    const reducer = () =>{}
 
     const [cart, setCart] = useState([]);
 

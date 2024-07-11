@@ -33,11 +33,9 @@ const Filters = () => {
                 <label htmlFor={categoryId}>Categoria</label>
                 <select onChange={handleSelectChange} name="categoria" id={categoryId}>
                     <option value="all">Todas</option>
-                    <option value="home-decoration">decoración para casa</option>
-                    <option value="laptops">Portátiles</option>
-                    <option value="smartphones">Celures</option>
+                    <option value="beauty">Belleza</option>
+                    <option value="furniture">Muebles</option>
                     <option value="fragrances">Colonias</option>
-                    <option value="skincare">protección de la piel</option>
                     <option value="groceries">comestibles</option>
                 </select>
             </div>
